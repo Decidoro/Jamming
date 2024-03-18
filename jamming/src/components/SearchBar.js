@@ -7,7 +7,7 @@ function Searchbar() {
         Search Music:
         <input
           type="text"
-          name="name"
+          name="search"
         />
       </label>
     </form>

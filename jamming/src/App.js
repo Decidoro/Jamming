@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Searchbar/>
+        <Searchbar id='searchbar'/>
       </nav>
       <body>
-        <Tracklist/>
+        <Tracklist id='tracklist'/>
       </body>
     </div>
   );

@@ -9,10 +9,12 @@ const DisplayResults = (props)=>{
     return(
         <div>
             <h1>'{capName}' BY:</h1>
-            <h2>{capArtist}- {capAlbum}</h2>
+            <h2>{capArtist} - {capAlbum}</h2>
         </div>
     );
   }
+
+//This component call the Display component and passes information into it
 
 function Tracklist(props) {
   const clientId = "473ebfa982454d4b8d85606a7da30ece";
@@ -67,7 +69,6 @@ function Tracklist(props) {
     }
     */
 
-  return <div></div>;
 }
 
 export default Tracklist;
